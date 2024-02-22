@@ -6,7 +6,7 @@ pipeline {
                  script {
                 sshPublisher(
                     publishers: [
-                        sshPublisherDesc(configName: 'Testing',
+                        sshPublisherDesc(configName: 'Test',
                         transfers:
                         [
                             sshTransfer(cleanRemote: false,
